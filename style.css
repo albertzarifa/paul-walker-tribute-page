@@ -1,0 +1,150 @@
+body {
+    background-color: #DCDCDC;
+}
+
+#main  {
+
+}
+
+#title-container {
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+}
+
+#title {
+    font-family: Comic Sans MS, cursive, sans-serif;
+}
+#title a { 
+    text-decoration:none;
+    color: inherit;
+}
+
+.quote blockquote {
+  background-color: #DCDCDC;
+  border: solid 2px #757575;
+  display: inline-block;
+  margin: 0;
+  padding: 0px;
+  position: relative;
+  text-align: center;
+}
+.quote blockquote:before {
+  background-color: #DCDCDC;
+  bottom: -10%;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: -10%;
+  transform: rotate(-10deg) skew(15deg);
+}
+.quote blockquote cite:before {
+  content: "- ";
+}
+.quote blockquote > * {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+
+#bio-container {
+    background-color:#D3D3D3;
+    float:left;
+    width: 45%;
+    height: 555px;
+    border-radius: 20px;
+}
+#bio-title, #family-title {
+    font-size: 20px;
+    text-align: center;
+}
+bio-container, p {
+    /* text-indent: 25px; */
+    text-align: justify;
+    margin: 10px;
+}
+#bio-container p {
+    font-size: 17px;
+}
+#bio-container figcaption {
+    text-align: center;
+}
+
+#family-container {
+    background-color: #D3D3D3;
+    float: right;
+    width: 52.5%;
+    height: 555px;
+    border-radius: 20px;
+    margin: auto;
+    overflow: auto;
+
+}
+.family-images {
+    margin:5px;
+    float: left;
+    display: flex;
+    width: 700px;
+}
+.family-images img {
+    width: 40%;
+    height: auto;
+}
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    width: 280px;
+}
+
+#image {
+    border-radius: 220px 220px 220px 220px;
+    /* display: flex; */
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#cap-image {
+    text-align: center;
+}
+
+#family-img {
+    float: left;
+    display: flex;
+}
+#siblings-img {
+    float: right;
+    display: flex;
+}
+#daughter-img {
+    display: flex;
+    height: 130px;
+}
+
+#family-container p {
+    text-align: justify;
+    margin: 10px;
+}
+
+#tribute-info h3 {
+    text-align: center;
+    padding: 10px;
+    padding-top: 10px;
+}
+ul {
+    max-width: 750px;
+    margin: 0 auto 50px auto;
+    line-height: 1.8;
+  }
+
+li {
+    margin: 16px 0px;
+}
+
+#tribute-link {
+    text-align: center;
+    font-size: 20px;
+}
